@@ -1,0 +1,95 @@
+* {
+    /* border: solid red; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* SECCIÓN NAVEGACION O CABEZERA */
+nav {
+    background-color: #000000;
+    text-align: center;
+}
+
+nav h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+header {
+    /* PARA COLOCAR DE FONDO LA IMAGEN DE LA CARPETA IMG */
+    background-image: url(../img/bg-header.jpg);
+    height: 727px;
+    /* PARA QUE LA IMAGEN NO SE REPITA */
+    background-repeat: no-repeat;
+    /* PARA COLOCAR EL TAMAÑO DE FONDO AJUSTADO A LA PANTALLA  */
+    background-size: cover;
+}
+
+/* SECCION PRINCIPAL */
+/* Sección iguana con parrafo */
+
+.desc-section {
+    background-color: #000000;
+    display: flex;
+    padding: 45px 150px;
+    /* PARA ALINEAR LOS ELEMENTOS */
+    align-items: center;
+}
+
+.desc-section p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.iguana-desc {
+    width: 399px;
+    height: 237px;
+}
+
+/* SECCIÓN CARACTERISITCA con iconos */
+
+.icons-section {
+    background-color: #1E1A13;
+    color: white;
+    text-align: center;
+    padding: 45px 150px;
+}
+.iconos_iguana{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.fotos-section {
+    background-color: #000000;
+    padding: 45px 150px;
+}
+
+.fotos-section div {
+    display: flex;
+    justify-content: center;
+}
+
+.fotos-section div img {
+    width: 316px;
+    margin: 0px 20px;
+}
+
+/* SECCIÓN FOOTER */
+footer {
+    padding: 45px 150px;
+    background-color: #1E1A13;
+    text-align: center;
+    
+}
+
+footer div a {
+    text-decoration: none;
+    color: #FFFFFF;
+    /* padding: 45px 150px; */
+    /* margin: 150px; */
+}
