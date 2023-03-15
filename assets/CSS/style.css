@@ -87,7 +87,7 @@ footer {
     
 }
 
-footer div a {
+footer div a, h3 {
     text-decoration: none;
     color: #FFFFFF;
     /* padding: 45px 150px; */
